@@ -41,7 +41,7 @@ const generateCommits = async () => {
 
         console.log('Pushing commits...');
         await git.push('origin', 'main', {'--force': null});
-        console.log('All commits pushed successfully!');
+        console.log('All commits pushed successfully! we are good to go');
     } catch (error) {
         console.error('An error occurred:', error);
     }
