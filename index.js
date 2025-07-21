@@ -39,7 +39,7 @@ const generateCommits = async () => {
             startDate.add(1, 'day');
         }
 
-        console.log('Pushing commits...');
+        console.log('Pushing commits with JOE-SDK...');
         await git.push('origin', 'main', {'--force': null});
         console.log('All commits pushed successfully! we are good to go');
     } catch (error) {
