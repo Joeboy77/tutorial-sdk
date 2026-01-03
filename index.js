@@ -14,7 +14,7 @@ const makeCommit = async (date) => {
 };
 
 const generateCommits = async () => {
-    const startDate = moment('2025-01-01');
+    const startDate = moment('2026-01-01');
     const today = moment();
 
     try {
